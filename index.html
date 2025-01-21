@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
+  
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    
-  
       <title>START BOOTSTRAP</title>
     
 
@@ -28,10 +17,11 @@
   </head>
   <header>
    <div class="encabezado">
-      <h1 class="titulo">
+      <h1 class="header-tit">
       START BOOTSTRAP
     </h1>
-      <p class="menu1">
+      <div class="menus"> 
+    <p class="menu1">
         PORTFOLIO          
       </p>
      <p class="menu2">
@@ -39,59 +29,91 @@
      </p>
      <p class="menu3">
         CONTACT
-     </p>
+     </p> 
+     </div>
       
-    </div></header>
+    </div>
+  </header>
   <body>
    
     <div class="principal">
-        <h1 class="title">START BOOTSTRAP</h1>
         <img
           src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/profile.png?v=1728571397854"
           class="profile"
         />
+      <h1 class="title">START BOOTSTRAP</h1>
+        
       <p>
         Web Developer - Graphic Artist - User Experience Designer
       </p>
-      </div>
+      </div> 
+    <h1 id="tit-portfolio">PORTFOLIO</h1>
         <div class="portfolio">
-          <h1>PORTFOLIO</h1>
+          
+        <ul class="flex-container">
+         <li>
           <img 
             src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/cabin.png?v=1728571668939"
             class="cabin" />
-          <img
+          </li>
+          
+          <li>
+            <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/cake.png?v=1728571683050"
                class="cake"
                />
+          </li>
+          
+          <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/circus.png?v=1728571693060"
                class="circus"
                />
+          </li>
+          
+          <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/game.png?v=1728571705622"
                class="game"
                />
-          <img
+            </li>
+          
+          <li>
+            <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/safe.png?v=1728571715135"
                class="safe"
                />
+            </li>
+          
+          <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/submarine.png?v=1728571721016"
                class="submarine"
                />
+            </li>
+          
+           </ul>
           
         </div>
-    <div class="about">
-    <h1>ABOUT</h1>
-    <p>Freelancer is a free Bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JAvaScript as well as optional LESS stylesheets for easy customization.</p>
-    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-    <button class="download-btn">Download Theme</button>
-  </div>
     
-    <div class="contact">
-      <h1>
+    
+  <h1 class="about-t">ABOUT</h1>
+  <div class="about">
+    <div class="about-p">  
+     <p >Freelancer is a free Bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JAvaScript as well as optional LESS stylesheets for easy customization.</p>
+    </div>
+    <div class="about-p">  
+     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+    </div>  
+  </div>
+    <div class="container-download-btn">
+      <button class="d-btn">📥Download Theme</button>
+    </div>
+    
+<div class="contact">
+  <h1>
         CONTACT ME
-      </h1>
+  </h1>
       <form>
         <input placeholder="Name"/>
         <input placeholder="Email Adress"/>
@@ -99,7 +121,7 @@
          <input placeholder="Message"/>
         
       </form>
-      <button>
+      <button class="btn-send">
         Send
       </button>
       
