@@ -1,0 +1,23 @@
+{
+  "name": "start-bootstrap",
+  "version": "1.0.0",
+  "description": "Start Bootstrap es un sitio freelancer, confeccionado mediante HTML y \r CSS✨.\r Ocupando especialmente flexbox y layout grid.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massiaranc/start-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massiaranc/start-bootstrap/issues"
+  },
+  "homepage": "https://github.com/massiaranc/start-bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

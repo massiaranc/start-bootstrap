@@ -16,6 +16,7 @@ header{
   font-family: HK Grotesk;
   font-style: normal;
 }
+
 .menus{
   display:flex;
   flex-direction:row;
@@ -24,35 +25,42 @@ header{
   align-items:center;
   gap:20px;   
 }
+
 .principal{
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
 }
+
 .profile{
   align-content:center;
   width:200px;
   height:200px;
   margin-top:100px;
 }
+
 .encabezado{
   color:white;
   display:flex;
 }
+
 .header-tit{
   margin-left:80px;
   margin-top:50px;
 }
-p{
+
+p {
   font-family:HK Grotesk;
   color:white;
 }
+
 .cabin, .cake, .circus, .game, .safe, .submarine{
   width:280px;
   height:200px;
   margin:20px;
 }
+
 #tit-portfolio{
   background-color:white;
   display:flex;
@@ -61,50 +69,59 @@ p{
   font-family: HK Grotesk;
   font-style: normal;
 }
+
 .portfolio {
   background-color:white;
   display:flex;
   height:500px; 
 }
-.flex-container{
+
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
 }
-.about{
+
+.about {
   display:grid;
   grid-template-columns:auto auto;
   justify-content: center;
 }
-.about-t{
+
+.about-t {
   display:flex;
   justify-content:center;
   margin-top: 50px;
   margin-bottom: 30px;
   color:white;
 }
-.about-p{
+
+.about-p {
   display:flex;
   justify-content:center;
   width:300px;
 }
-.container-download-btn{
+
+.container-download-btn {
   display:flex;
   justify-content:center;
   align-content:center;
 }
-.d-btn{
+
+.d-btn {
   background-color:#18bc9c;
   color:white;
   border: 2px solid white;
   justify-content:center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
   
-}
-.contact{
+.contact {
   background-color:white;
 }
-.btn-send{
+
+.btn-send {
   background-color:#18bc9c;
   color:white;
 }
@@ -143,6 +160,7 @@ a:not(.btn--remix):visited {
   text-decoration: none;
   border-style: none;
 }
+
 .footer a:hover {
   background: var(--color-primary);
 }
