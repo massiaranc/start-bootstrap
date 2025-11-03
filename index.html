@@ -4,7 +4,7 @@
   
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="icon" href="./assets/freelancer.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
       <title>START BOOTSTRAP</title>
@@ -39,68 +39,82 @@
   </header>
 
   <body> 
-    <div class="principal">
+    <section class="principal">
         <img
           src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/profile.png?v=1728571397854"
           class="profile"
         />
       <h1 class="title">START BOOTSTRAP</h1>
+        <div class="line-w">
+        <span class="linew-left"></span>
+        <i class="fa-solid fa-star"></i>
+        <span class="linew-right"></span>
+      </div>
         
       <p>
         Web Developer - Graphic Artist - User Experience Designer
       </p>
-    </div> 
+    </section> 
 
+<section class="container-portfolio">
+  <h1 class="h1-black">PORTFOLIO</h1>
 
-    <h1 class="h1-black">PORTFOLIO</h1>
-    
+   <div class="line">
+    <span class="line-left"></span>
+    <i class="fa-solid fa-star"></i>
+    <span class="line-right"></span>
+   </div>
+
     <div class="portfolio">
         <ul class="flex-container">
          <li>
           <img 
             src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/cabin.png?v=1728571668939"
-            class="cabin" />
+            class="img"/>
           </li>
           
           <li>
             <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/cake.png?v=1728571683050"
-               class="cake"
-               />
+               class="img"/>
           </li>
           
           <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/circus.png?v=1728571693060"
-               class="circus"
-               />
+               class="img"/>
           </li>
           
           <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/game.png?v=1728571705622"
-               class="game"
-               />
+               class="img"/>
             </li>
           
           <li>
             <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/safe.png?v=1728571715135"
-               class="safe"
-               />
+               class="img"/>
             </li>
           
           <li>
           <img
                src="https://cdn.glitch.global/fd460ff0-d0b0-45e0-8452-5defe3560ad1/submarine.png?v=1728571721016"
-               class="submarine"
-               />
+               class="img"/>
             </li> 
            </ul>    
     </div>
+    </section>
     
-    <div class="container-about">
+    <section class="container-about">
       <h1 class="h1-white">ABOUT</h1>
+
+      <div class="line-w">
+        <span class="linew-left"></span>
+        <i class="fa-solid fa-star"></i>
+        <span class="linew-right"></span>
+      </div>
+
       <div class="about">
         <div class="about-p">  
           <p> Freelancer is a free Bootstrap theme created by Start Bootstrap. 
@@ -114,31 +128,36 @@
         </div>  
         </div>
         <div class="container-download-btn">
-          <button>📥Download Theme</button>
+          <button>
+            <i class="fa-solid fa-download"></i>
+            Download Theme
+          </button>
         </div>
-    </div>
+    </section>
     
-<div class="contact">
+<section class="contact">
   <div class="title-contact">
     <h1 class="h1-black">
         CONTACT ME
     </h1>
   </div>
+  <div class="line">
+    <span class="line-left"></span>
+    <i class="fa-solid fa-star"></i>
+    <span class="line-right"></span>
+   </div>
    <div class="container-contact">
       <form>
         <input placeholder="Name"/>
         <input placeholder="Email Adress"/>
         <input placeholder="Phone Number"/>
-         <input placeholder="Message"/>
+        <input placeholder="Message"/>
       </form>
          <button> Send </button>     
-    </div>
-      
-</div>
-      
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    
-      <div class="container-footer">
+    </div>     
+</section>
+
+    <section class="container-footer">
       <div>
         <h1 class="h1-white">
         LOCATION 
@@ -168,12 +187,11 @@
         ABOUT FREELANCER
         </h1>
         <p>
-  Freelance is a free to use, open source <br>
-  Bootstrap theme created by <span style="color: #18bc9c"> Start <br>Bootstrap</span>.
-</p>
-
+          Freelance is a free to use, open source <br>
+          Bootstrap theme created by <span style="color: #18bc9c"> Start <br>Bootstrap</span>.
+        </p>
       </div>
-      </div>
+    </section>
        
      <footer class="footer"> 
       <p>
